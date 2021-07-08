@@ -1,6 +1,6 @@
 package gosayhello
 
-func SayHello() string {
+func SayHello(name string) string {
 	// fmt.Println("Hellow")
-	return "Hellow world"
+	return "Hellow " + name
 }
